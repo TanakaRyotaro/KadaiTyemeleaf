@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf課題</title>
+</head>
+<body>
+    <h1>Thymeleaf課題</h1>
+    <h2>入力画面</h2>
+    <p th:text="${msg}"></p>
+    <p><a th:href="@{/input/(previous=${param.previous[0]})}">入力画面へ戻る</a></p>
+</body>
+</html>
